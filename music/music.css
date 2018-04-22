@@ -36,3 +36,6 @@ a:active {
 .album {
 	border: 2px solid #888;
 }
+.single {
+	color: #7fb;
+}
