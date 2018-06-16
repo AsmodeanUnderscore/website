@@ -1,0 +1,21 @@
+I = 0.1M
+O = 40M
+
+STAR
+M = 0.934
+L = 0.787
+
+ 0.0934		inner limit
+ 4.3038		frost line
+ 5.40		largest gas giant
+
+37.36		outer limit
+
+PLANET
+
+r = 0.95
+g = 0.82
+m = 0.91
+d = 0.90
+v = 0.98
+a = 
