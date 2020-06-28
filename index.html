@@ -1,32 +1,35 @@
 <head>
 	<title>ASMO</title>
 	<link rel="stylesheet" href="wiki.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 
 <body>
 <table class="infobox" style="width:22em;line-height: 1.5em;margin-left:auto;margin-right:auto">
-	<caption class="summary" style="font-size: 125%;">auxiliary sound maintenance operations</caption>
+	<caption class="summary" style="font-size: 125%; font-family: Montserrat;">auxiliary sound maintenance operations</caption>
 <tbody>
 	<tr>
 		<th style="text-align:center;font-size:125%;font-weight:bold;padding-top:6px;">
-			<span class="flagicon"><a href="http://asmodeanunderscore.com"><img alt="ASMO" src="images/asmo1.png" height="30" class="thumbborder" /></a></span>
-		<hr>
+			<span class="flagicon"><a href="http://asmodeanunderscore.com"><img alt="A_" src="images/asmo1.png" height="30" class="thumbborder" /></a></span>
 		</th>
 	</tr>
+	<tr><td><hr /></td></tr>
 	<tr>
-	<td style="text-align:center;line-height:130%;">
+	<td style="text-align:center;line-height:100%;">
 		<table style="width:480px; margin:1px;">
 		<tbody>
-			<tr><td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><b><a href="https://asmo.reddit.com" target="_blank">reddit</a></b></td>
-			<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><b><a href="https://soundcloud.com/asmodeanunderscore" target="_blank">soundcloud</a></b></td>
-			<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><b><a href="https://www.youtube.com/channel/UCl6zG-4uizskoUJ6_qS1Bbw" target="_blank">youtube</a></b></td>
-			<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><b><a href="https://twitter.com/Asmodean_" target="_blank">twitter</a></b></td></tr>
+			<tr>
+				<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><a href="https://twitter.com/Asmodean_" target="_blank">twitter</a></td>
+				<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><a href="https://soundcloud.com/asmodeanunderscore" target="_blank">soundcloud</a></td>
+				<td style="text-align:center; vertical-align:middle; padding:0 1px;width:25%;" class=""><a href="https://www.youtube.com/channel/UCl6zG-4uizskoUJ6_qS1Bbw" target="_blank">youtube</a></td>
+			</tr>
 		</tbody>
 		</table>
-	<hr>
 	</td>
 	</tr>
-	<tr><td id="vdater" style="text-align:center;font-weight:bold;">
+	<tr><td><hr /></td></tr>
+	<tr><td style="text-align:center;">Today's date is <b  class="emphasis" id="vdater"></b>
 		<script>
 			var nowsync = Date.now();
 			var daydiff = Math.floor((nowsync - 1523664000000) / 86400000);
@@ -36,33 +39,35 @@
 			var dday = vday + (10*Math.floor(vweek%3));
 			var vmonthn = Math.floor(vweek/3);
 			var dmontha = ["Yearmun", "Suramun", "Karmun", "Greimun", "Miramun", "Farmun", "Haramun", "Barmun", "Joarmun", "Shoremun", "Lilymun", "Earlymun", "Midwinter"];
-			let div = document.createElement('div');
-			div.className = "infobox";
-			vdater.innerHTML = ("Today's date is " + dday + " " + dmontha[vmonthn] + " " + vyear);
-			vdater.appendChild(div);
+//			let div = document.createElement('div');
+//			div.className = "infobox";
+			vdater.innerHTML = (dday + " " + dmontha[vmonthn] + " " + vyear);
+//			vdater.appendChild(div);
 		</script>
 	</td></tr>
+	<tr><td><hr /></td></tr>
 	<tr>
 	<td>
-		<table style="width:480px; margin:1px;">
+		<table style="width:480px; margin:1px; text-align:center; vertical-align:middle;">
 		<tbody>
-			<tr><td colspan=3 style="text-align:center;"><a href="music/discography.html">MUSIC</a></td></tr>
-			<tr><td colspan=3 style="text-align:center; vertical-align:middle; padding:0 1px; width:70%;" class="">latest releases</td></tr>
-			<tr><td colspan=3 style="text-align:center;">from <a href="music/evi.html">(E-V)/I</a> and <a href="music/actontown.html">Acton Town</a></td></tr>
+			<tr><td colspan=3><a href="music/discography.html">MUSIC</a></td></tr>
+			<tr><td colspan=3 style="padding:0 1px; width:70%;" class="">currently working on: <a href="music/pos.html">Principles of Organic Synthesis</td></tr>
+			<tr><td> </td></tr>
+			<tr><td colspan=3 style="padding:0 1px; width:70%;" class="">latest releases, from <a href="music/evi.html">(E-V)/I</a> and <a href="music/actontown.html">Acton Town</a>:</td></tr>
 			<tr>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="music/oars-rest.html"><img class="album" src="images/oarsrest.png" height=120px /></a></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="music/224.html"><img class="album" src="images/224.png" height=120px /></a></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="music/centuryavenue.html"><img class="album" src="images/centuryavenue.png" height=120px /></a></td>
+				<td style="padding:0 1px; width:160px;" class=""><a href="music/oars-rest.html"><img class="album" src="images/oarsrest.png" height=120px /></a></td>
+				<td style="padding:0 1px; width:160px;" class=""><a href="music/224.html"><img class="album" src="images/224.png" height=120px /></a></td>
+				<td style="padding:0 1px; width:160px;" class=""><a href="music/centuryavenue.html"><img class="album" src="images/centuryavenue.png" height=120px /></a></td>
 			</tr>
 			<tr>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">OAR'S REST</td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">224</td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">CENTURY AVENUE</td>
+				<td style="padding:0 1px;" class="">OAR'S REST</td>
+				<td style="padding:0 1px;" class="">224</td>
+				<td style="padding:0 1px;" class="">CENTURY AVENUE</td>
 			</tr>
 			<tr>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class=""><small>2018-01-25</small></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class=""><small>2019-04-23</small></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class=""><small>2018-08-29</small></td>
+				<td style="padding:0 1px;" class=""><small>2018-01-25</small></td>
+				<td style="padding:0 1px;" class=""><small>2019-04-23</small></td>
+				<td style="padding:0 1px;" class=""><small>2018-08-29</small></td>
 			</tr>
 		</tbody>
 		</table>
@@ -72,6 +77,20 @@
 	<tr>
 	<td>
 		<table style="width:480px; margin:1px;">
+		<tbody style="text-align:center;">
+			<tr><td><a href="https://discord.gg/HeDJ83F">TEP</a></td></tr>
+			<tr><td><b class="emphasis">News</b> <a href="https://tep.wiki/wiki/Template:Borea">tepwiki</a> | <a href="https://forum.theeastpacific.com/knc-kyrloth-news-central-t3211.html">KNC</a></td></tr>
+			<tr><td><b class="emphasis">T.A.R.A.</b> <a href="https://forum.theeastpacific.com/the-mauve-folder-scandal-t16905.html">tMFS (0)</a> | <a href="https://forum.theeastpacific.com/t-a-r-a-parts-1-2-t3631.html">1, 2</a> | <a href="https://forum.theeastpacific.com/mr-tass-s-holiday-t-a-r-a-parts-3-4-kyrloth-expans-t16094.html">3, 4</a></td></tr>
+			<tr><td><b class="emphasis">2199</b> CXhaVBD | <a href="https://tep.wiki/wiki/Category:2199">tepwiki</a></td></tr>
+			<tr><td><b class="emphasis">Maps</b> <a href="Aduraszna/electionmap.html">Aduraszna</a> | <a href="Aduraszna/mbemap.html">MBE</a></td></tr>
+		</tbody>
+		</table>
+	</td>
+	</tr>	
+	<tr><td><hr /></td></tr>
+	<tr>
+	<td>
+		<table style="width:480px; margin:1px; text-align:center;">
 		<tbody>
 			<tr><td colspan=3 style="text-align:center;"><a href="aph/index.html">ARTIFEXIAN PODCAST HIGHLIGHTS</a></td></tr>
 			<tr>
@@ -89,21 +108,11 @@
 				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class=""><small>2018-03-20</small></td>
 				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class=""><small>2018-05-22</small></td>
 			</tr>
+			<tr><td colspan=3 style="text-align:center;">
 		</tbody>
 		</table>
 	</td>
 	</tr>
-	<tr><td><hr /></td></tr>
-	<tr>
-	<td>
-		<table style="width:480px; margin:1px;">
-		<tbody>
-			<tr><td style="text-align:center;"><b>T.A.R.A</b></td></tr>
-			<tr><td style="text-align:center;"><a href="http://nswiki.org/index.php?title=Kyrloth">NSWiki</a> | Parts <a href="https://forum.theeastpacific.com/t-a-r-a-parts-1-2-t3631.html">1, 2</a> | <a href="https://forum.theeastpacific.com/mr-tass-s-holiday-t-a-r-a-parts-3-4-kyrloth-expans-t16094.html">3, 4</a> | <a href="https://forum.theeastpacific.com/knc-kyrloth-news-central-t3211.html">KNC</a></td></tr>
-		</tbody>
-		</table>
-	</td>
-	</tr>	
 	<tr><td><hr /></td></tr>
 	<tr>
 	<td>
@@ -117,18 +126,18 @@
 	<tr><td><hr /></td></tr>
 	<tr>
 	<td>
-		<table style="width:480px; margin:1px;" hidden> <!-- REMOVE THIS HIDDEN TAG WHEN WORLDBUILDING SECTION COMPLETE -->
+		<table style="width:480px; margin:1px; text-align:center;" hidden > <!-- REMOVE THIS HIDDEN TAG WHEN WORLDBUILDING SECTION COMPLETE -->
 		<tbody>
-			<tr><td colspan=3 style="text-align:center;"><a href="aph/index.html">WORLDBUILDING</a></td></tr>
+			<tr><td colspan=3><a href="aph/index.html">WORLDBUILDING</a></td></tr>
 			<tr>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/wiki/list.html"><img class="album" src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" width=120px /></a></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/maps.html"><img class="album" src="images/globe1.png" width=120px /></a></td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/flags.html"><img class="album" src="images/kyrlothicon.png" width=120px /></a></td>
+				<td style="vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/wiki/list.html"><img class="album" src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" width=120px /></a></td>
+				<td style="vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/maps.html"><img class="album" src="images/globe1.png" width=120px /></a></td>
+				<td style="vertical-align:middle; padding:0 1px; width:160px;" class=""><a href="worldbuilding/flags.html"><img class="album" src="images/kyrlothicon.png" width=120px /></a></td>
 			</tr>
 			<tr>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">Elections</td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">Maps</td>
-				<td style="text-align:center; vertical-align:middle; padding:0 1px;" class="">Flags</td>
+				<td style="vertical-align:middle; padding:0 1px;" class="">Elections</td>
+				<td style="vertical-align:middle; padding:0 1px;" class="">Maps</td>
+				<td style="vertical-align:middle; padding:0 1px;" class="">Flags</td>
 			</tr>
 		</tbody>
 		</table>

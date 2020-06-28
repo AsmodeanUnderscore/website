@@ -1,7 +1,12 @@
 body {
 	background-color: #222;
 	color: #ddd;
-	font-family: Montserrat, Arial, sans-serif;
+	font-family: Archivo, Arial, sans-serif;
+}
+.emphasis {
+	color: 46bdc6;
+	font-weight: 700;
+	font-family: Montserrat;
 }
 .infobox {
 	background-color: #444;
