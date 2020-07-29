@@ -50,3 +50,7 @@ a:active {
 .single {
 	color: #db5334;
 }
+.titledrop {
+	color: #f7dad4;
+	display: inline;
+}
