@@ -2056,15 +2056,15 @@
 	<!--	<button onclick="importa('8')" disabled>2021</button>	-->
 	<button onclick="importa('7')">Latest opinion poll</button> <button onclick="importa('0')">2017</button> <input type="text" id="listinput" name="listinput" style="width: 148px;" /> <button onclick="colourMap()">Use Code</button> | Map only: <button onclick="importa('1')">2014</button> <button onclick="importa('2')">2010</button> <button onclick="importa('3')">2009</button> <button onclick="importa('4')">2006</button> <button onclick="importa('5')">2005</button> <button onclick="importa('6')">2003</button> <br />
 	<table style="height: 88px; position:absolute; top:41px; left:3px; z-index:3; border:0px;"><tr>
-			<td id="seat6" class="seatbar">162</td>
-			<td id="seat2" class="seatbar">129</td>
-			<td id="seat0" class="seatbar">8</td>
-			<td id="seat4" class="seatbar">7</td>
-			<td id="seat3" class="seatbar">6</td>
-			<td id="seat1" class="seatbar">6</td>
-			<td id="seat7" class="seatbar">1</td>
-			<td id="seat5" class="seatbar">1</td>
-			<td id="seat8" class="seatbar">0</td>
+			<td id="seat6" class="seatbar" onclick="partypercent('6')">162</td>
+			<td id="seat2" class="seatbar" onclick="partypercent('2')">129</td>
+			<td id="seat0" class="seatbar" onclick="partypercent('0')">8</td>
+			<td id="seat4" class="seatbar" onclick="partypercent('4')">7</td>
+			<td id="seat3" class="seatbar" onclick="partypercent('3')">6</td>
+			<td id="seat1" class="seatbar" onclick="partypercent('1')">6</td>
+			<td id="seat7" class="seatbar" onclick="partypercent('7')">1</td>
+			<td id="seat5" class="seatbar" onclick="partypercent('5')">1</td>
+			<td id="seat8" class="seatbar" onclick="partypercent('8')">0</td>
 	</tr></table>
 	<div class="slidecontainer" style="position:absolute; top:0; left:800px; height:133px; width:400px; font-family: source-sans-pro, Helvetica, Arial, sans-serif; font-weight:700;">
 		<table>
@@ -2078,7 +2078,7 @@
 				<td><input style="width:220px;" type="range" min="10" max="50" value="27.86" class="slider" step="0.01" id="minormeter"></td>
 				<td style="width:80px; text-align:left; color:#202020;" id="minors">27.86%</td>
 			</tr>
-			<tr><td colspan="3" style="text-align:center;"><button onclick="partypercent('6')">ReNDaF</button><button onclick="partypercent('2')">AK/ER</button><button onclick="partypercent('0')">Sol.</button><button onclick="partypercent('4')">MC</button><button onclick="partypercent('3')">MEA</button><button onclick="partypercent('1')">KN-CR</button><button onclick="partypercent('7')">Atn!</button><button onclick="partypercent('8')">AST</button></td></tr>
+			<!--<tr><td colspan="3" style="text-align:center;"><button onclick="partypercent('6')">ReNDaF</button><button onclick="partypercent('2')">AK/ER</button><button onclick="partypercent('0')">Sol.</button><button onclick="partypercent('4')">MC</button><button onclick="partypercent('3')">MEA</button><button onclick="partypercent('1')">KN-CR</button><button onclick="partypercent('7')">Atn!</button><button onclick="partypercent('8')">AST</button></td></tr>-->
 		</table>
 	</div>
 	<p><small id="mpplabel" style="visibility: hidden; position:absolute; top:115px; left:802px;">Using new minor party stats; click 2017 button to return to original model</small></p>
