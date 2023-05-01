@@ -6,6 +6,7 @@
 </head>
 <body>
 <h2>Polyrhythm Chart Generator</h2>
+<h3 class="first">NB! Updated version of this page is on my new website at <a href="https://www.kyrla.xyz/poly.html">kyrla.xyz</a>.</h3>
 <p>Enter values for X and Y</p>
 <form>
   X (e.g. 7) &nbsp;<input type="text" name="nx"><br>
@@ -35,15 +36,15 @@ for (var i = 1; i <= vy; i++) {
 		k += 1;
 		if (k % vy == 1) {vtext += "<b>";}
 		if (j == 1) {vtext += "<b class='left'>";}
-		if (k == 1) {vtext += "<b id='first'>";}
+		if (k % vy == 1 && j == 1) {vtext += "<b class='first'>";}
 		vtext += j + " ";
 		if (k % vy == 1) {vtext += "</b>";}
 		if (j == 1) {vtext += "</b>";}
-		if (k == 1) {vtext += "</b>";}
+		if (k % vy == 1 && j == 1) {vtext += "</b>";}
 	}
 	vtext += "<br />";
 }
-vtext += "<b id='first'>1</b>";
+vtext += "<b class='first'>1</b>";
 document.getElementById("demo").innerHTML = vtext;
 </script>
 <p>&nbsp;</p>
